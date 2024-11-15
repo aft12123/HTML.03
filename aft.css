@@ -1,0 +1,54 @@
+h1:hover{
+    text-decoration: underline;
+
+color:rgb(28, 0, 128);
+
+
+}
+h2{
+
+    color: blue;
+    text-align: center;
+    
+    
+}
+h3: :hover{
+
+
+    color: aquamarine;
+    font-style: italic;
+    background-color: rgba(3, 9, 35, 0);
+}
+h4{
+    color: red;
+    background-color: blue;
+    font-style: inherit;
+    text-align: center;
+    font-size: larger;
+    font-style: inherit;
+}
+img
+    image-rendering: optimizeQuality;
+    image-orientation: from-image;
+    image-resolution: initial;
+    shape-image-threshold: inherit;
+    border-radius: 150px;
+    border-image-width: 50px;
+    background-image: -moz-repeating-radial-gradient(50px);
+    border-image-slice: inherit;
+    border-image-width: 500px;
+    
+}
+.box{
+    padding: 50px;
+    border: solid red;
+    margin: 50px;
+}
+   h5:hover {
+    color: rgba(29, 11, 169, 0.456);
+    text-decoration: solid;
+  }
+h5:hover{
+
+    text-decoration: underline;
+}

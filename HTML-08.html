@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="./display.html">
+        <!--
+             Form
+             -An html form is used to collect user input.
+             -it is represented by <form> tag containing diffrent type of input element in it.
+            -action attribute helps the form to redirect the page to another,if submitted through the buttonin the form.      
+    
+          -->
+            <style>
+
+            #name  {
+            }
+            </style>
+            <label for="name">Name</label>
+            <!--
+            Label tag:
+            -a label tag is used to disclosed the text in the form, refering to the
+            input field.
+            -"for" key in attribute is mapped with the input element's id to find the respective field to it.
+            -->
+            <input type="text" id="name" placeholder="full name">
+            <br/><br/>
+            <!---
+            INPUT TAG-
+            -Having a input field to store the user's data
+            -default input is of 'text' type.
+        Attributes:
+            -required:Makes the input field mandatory.
+            -disabled:makes the input field inactive.
+            -cheaked:makes the selected .... checked.
+            -placeholder:helps the user to understand about an input field.
+        Types:
+             -Text (default state)
+             -Number
+             -date
+             -password
+             -email
+             -color
+             -url
+             -file
+             -time
+             -datetime
+             -radio
+             -butons
+                    -submit
+                    -reset
+            
+            -->
+
+            <label for="num">phn-no Number</label>
+            <input type="number" id="num" placeholder="phone number">
+            <br/><br/>
+
+            <label for="date">Date of birth</label>
+            <input type="date" id="date" placeholder="Date of Birth"/>
+            <br/><br/>
+
+            <label for="pass">-password<span style="color: red;font-size:15px;">* </span>
+            </label>
+            <input type="password" id="pass" placeholder="password">
+            
+            <br/><br/>
+            <label for="email">Email</label>
+            <input type="email" id="mail" placeholder="Email"/>
+            
+            <br/><br/>
+            <label>Gender</label>
+            <input type="radio" name="gender" id="Male" value="male"/>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="Female" value="Female"/>
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" id="otehrs" value="otehrs"/>
+            <label for="otehrs">otehrs</label>
+            <br/><br/>
+            <label>Language</label>
+            <input type="checkbox" name="Language" id="eng" value="English"/>
+            <label for="eng">English</label>
+            <input type="checkbox" name="Language" id="hin" value="Hindi"/>
+            <label for="hin">Hindi</label>
+            <input type="checkbox" name="Language" id="mar" value="marathi"/>
+            <label for="Mar">Marathi</label>
+            <br/><br/>
+            <lable for="count">Country</lable>
+            <select id="Count">
+            <option selected disabled>Please select a country</option>
+            <option value="india">India</option>    
+            <option value="Austrelia">Austrelia</option> 
+            <option value="Nepal">Nepal</option>
+            <option value="Egypt">Egypt</option>
+            </select>
+            <br/><br/>
+            <button>Submit-btn</button>
+            <input  type="submit" value="submit-Inp"/>
+            <input type="reset" value="reset"/>
+        </form>           
+</body>
+</html>
