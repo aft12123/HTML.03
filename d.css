@@ -1,0 +1,16 @@
+.a{
+     display: -webkit-flex;
+     gap: 25px;
+    
+    width: 500px;
+
+}
+.b{
+
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+
+

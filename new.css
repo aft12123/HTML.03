@@ -1,0 +1,14 @@
+#box{
+    background-color: blue;
+    width: 200px;
+    display: inline block;
+    border: 3px solid;
+    margin 20px
+}
+#image{
+    display: none;
+}
+
+#box :hover #image{
+    display: block;
+}
