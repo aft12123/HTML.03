@@ -27,7 +27,7 @@ h4{
     font-size: larger;
     font-style: inherit;
 }
-img
+img {
     image-rendering: optimizeQuality;
     image-orientation: from-image;
     image-resolution: initial;
@@ -51,4 +51,10 @@ img
 h5:hover{
 
     text-decoration: underline;
+}
+h6:hover{
+    color: green;
+    text-decoration: underline;
+    text-transform: inherit;
+    text-shadow: 50px;
 }
