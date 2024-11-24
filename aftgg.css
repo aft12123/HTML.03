@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .location {
+    margin: 20px ;
+    
+  }
+  
+  
+  .search-bar {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .location select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  /* Menu Section */
+  .menu {
+    padding: 40px;
+    background-color: white;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+    background-color: #fff;
+   
+  }
+  
+  .item:hover {
+    transform: scale(1.1);
+    
+  }
+  
+  .item img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .item p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  
+  .footer {
+    text-align: center;
+    background-color: #1950f5;
+    color: white;
+    padding: 5px;
+    
+  }
