@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
+    background-repeat: no-repeat;
+    
+    
   }
   
   h1, h2 {
@@ -18,15 +21,17 @@ body {
   
   
   .header {
-    background-color: rgb(12, 12, 230);
+    background-color:blue;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    
+    
    
   }
   
   .search-bar {
-    margin: 10px ;
+    margin: 5px ;
     padding-left: 30%;  }
   
   .search-bar input {
@@ -76,12 +81,13 @@ body {
     
   }
   
-  .item :hover{
+  .item  :hover{
     text-align: center;
     border: 5px solid #ddd;
     border-radius: 10px;
-     background-color: #fff;
-     border-radius: 10%;
+    background-color: #fff;
+    border-radius: 10%;
+    
    }
   
   
@@ -100,7 +106,7 @@ body {
   }
   
   
-  .footer {
+  .contact {
     text-align: center;
     background-color: white;
     color:black;
