@@ -27,15 +27,13 @@ body {
     
 }
   .header img{
-    height: 700px;
+    height: 300px;
     width: 100%;
   }
   
   .search-bar {
-    margin: 1px ;
-    
-    
-  }
+    margin: 1px;
+}
   
   .search-bar input {
     padding: 5px;
@@ -74,6 +72,7 @@ body {
   .menu {
     padding: 20px;
     background-color: white;
+    color: #130303;
   }
   
   .menu-items {
@@ -86,6 +85,7 @@ body {
     border-radius: 10%;
     margin: auto;
     
+    
   }
   
   .item  :hover{
@@ -94,6 +94,7 @@ body {
     border-radius: 5px;
     background-color: #fff;
     border-radius: 5%;
+    gap: 10%;
     
    }
   
@@ -117,7 +118,7 @@ body {
   .contact {
     text-align: center;
     background-color: white;
-    color:black;
+    color: black;
     font-size: large;
     
     
