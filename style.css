@@ -13,8 +13,6 @@ body {
     font-style: italic;
     font-display: 50px;
     font-variant: small-caps;
-    
-   
   }
   
   
@@ -88,13 +86,14 @@ body {
     
   }
   
-  .item  :hover{
+  .item :hover {
     text-align: center;
     border: 5px solid #120d0d;
     border-radius: 10px;
     background-color: white;
     border-radius: 5%;
     gap: 10%;
+    padding: 5px 5px 5px 5px;
     
    }
   
