@@ -90,9 +90,9 @@ body {
   
   .item  :hover{
     text-align: center;
-    border: 5px solid #ddd;
-    border-radius: 5px;
-    background-color: #fff;
+    border: 5px solid #120d0d;
+    border-radius: 10px;
+    background-color: white;
     border-radius: 5%;
     gap: 10%;
     
